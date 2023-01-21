@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASU Class Projects</title>
+  <script type="text/javascript" src="modal.js"></script>
+  <link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="assets\logo.png">
+</head>
+
+<body>
+  <header>
+    <div class="navbar navbar-light shadow-sm" style="background-color:#123C69">
+      <div class="container">
+        <div class="navbar-brand d-flex align-items-center">
+            <button style="background-color: transparent; border: #123C69;" onclick="window.location='courses.html'">
+                <strong style="color:#E8C4C4">My ASU Projects</strong>
+            </button>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-expanded="false" aria-controls="navbarHeader">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="navbarHeader" class="collapse" style="background-color:#2C6490">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">My Coursework at Arizona State University</h4>
+            <p class="text-white">This website documents my code and reflection on my coursework at Arizona State University through the different projects and classes I have taken.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact Me</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.linkedin.com/in/kelly-raines/" class="text-white" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></li>
+              <li><a href="https://github.com/kellyRaines05" class="text-white" target="_blank" rel="noopener noreferrer">My GitHub profile</a></li>
+              <li><a href="kraines5@asu.edu" class="text-white" target="_blank" rel="noopener noreferrer">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<main style="background-color:#F2E5E5">
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light" style="color:#CE7777">CSE240: Data Structures and Algorithms</h1>
+        <p class="lead text-muted">Class description here</p>
+      </div> 
+    </div>
+    <hr>
+    <div class="row py-lg-5">
+        <p class="lead text-muted">Below are each of the projects completed during the class semester. My code can be viewed after clicking on "More Information".</p>
+    </div>
+  </section>
+
+  <div class="album py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <center><text style=text-align:center fill="#eceeef" dy=".3em">Bash</text></center></img>
+            <div class="card-body">
+              <p class="card-text">Bash scripts demonstrate proficiency and understanding using Unix/Linux shell commands.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick=openModal(0)>More Information</button>
+                </div>
+                <small class="text-muted">5 files</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close" onclick=closeModal(0)>&times;</span>
+            <p>That text in the Modal..</p>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <center><text style=text-align:center fill="#eceeef" dy=".3em">Scheme</text></center></img>
+            <div class="card-body">
+              <p class="card-text">Functional programs writen with Dr. Racket which demonstrate proficiency in performing various calculations and manipulating lists.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick=openModal(1)>More Information</button>
+                </div>
+                <small class="text-muted">4 files</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close" onclick=closeModal(1)>&times;</span>
+            <p>Great text in the Modal..</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <center><text style=text-align:center fill="#eceeef" dy=".3em">C/C++: Morse Code</text></center></img>
+            <div class="card-body">
+              <p class="card-text">A program that translates from morse code to plaintext and back.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick=openModal(2)>More Information</button>
+                </div>
+                <small class="text-muted">1 file</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close" onclick=closeModal(2)>&times;</span>
+            <p>Wowie, text in the Modal..</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <center><text style=text-align:center fill="#eceeef" dy=".3em">C/C++: Wavefront Path Finder</text></center></img>
+            <div class="card-body">
+              <p class="card-text">A pathfinding program that uses Moore Neighborhood to evaluate the best greedy path from the start to the goal position.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick=openModal(3)>More Information</button>
+                </div>
+                <small class="text-muted">1 file</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close" onclick=closeModal(3)>&times;</span>
+            <p>Hey, text in the Modal..</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <center><text style=text-align:center fill="#eceeef" dy=".3em">C/C++: LinkedList</text></center></img>
+            <div class="card-body">
+              <p class="card-text">A program that utilizes LinkedLists to implement several fun functions for a zombie conga party!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick=openModal(4)>More Information</button>
+                </div>
+                <small class="text-muted">5 files</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close" onclick=closeModal(4)>&times;</span>
+            <p>Lol, text in the Modal..</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+<script src="C:\Users\kelly\Downloads\Programming\Personal\GitWebsite\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>

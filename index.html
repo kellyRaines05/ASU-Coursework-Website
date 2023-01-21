@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <script type="text/javascript" src="login.js"></script>
+    <link rel="icon" href="assets\logo.png">
+    <link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body style="background-color:#F2E5E5">
+    <header>
+        <div style="background-color:#123C69; color: #E8C4C4; margin-top: -1px; text-align: center; padding: 1mm;">
+            <h2>Login to see my course projects at ASU</h2>
+        </div>
+    </header>
+    <div class="container">
+        <h4 style="text-align: center;">Please enter your name and password as found on my resume.</h4>
+        <form action="index.php" method="post">
+            <div class="container" style="margin: 20px; text-align: center;">
+                <div>
+                    <label for="user">Enter your name: </label>
+                    <input type="text" id="user">
+                </div>
+                <div style="margin: 20px;">
+                    <label for="pswd">Enter your password: </label>
+                    <input type="password" id="pswd">
+                </div>
+                <div style="margin: 10px;">
+                <input type="checkbox" id="myCheck"/> Sign in as Admin 
+                </div>
+                <input type="button" value="Submit" onclick=checkPswd()>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+
+<style>
+body {
+    background-image: url('assets/logo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30% 55%;
+    background-blend-mode: overlay;
+}
+</style>
